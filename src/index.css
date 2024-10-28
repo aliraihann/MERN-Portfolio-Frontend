@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: 'graffitiFontIntro'; /* for the intro */
+  src: url('./fonts/NetworkFreeVersion.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'graffitiFontTitle'; /* For the experience title */
+  src: url('./fonts/Gemstone.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'graffitiFontCaption'; /* for the caption */
+  src: url('./fonts/Graffiti_desiderium-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'graffitiFontParagraph';
+  src: url('./fonts/Hey Comic.ttf') format('truetype');
+}
+
+
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+.font-graffiti {
+  font-family: 'graffitiFontIntro', sans-serif;
+}
+.font-graffiti-caption {
+  font-family: 'graffitiFontCaption', sans-serif;
+}
+.font-graffiti-title {
+  font-family: 'graffitiFontTitle', sans-serif;
+}
+.font-graffiti-paragraph {
+  font-family: 'graffitiFontParagraph', sans-serif;
+}
+
+
+
+.header h1 {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  /* box-shadow: inset 0 0 5px grey;  */
+  background-color: #73d3e7;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #1791a3;
+  border-radius: 10px;
+}
+
+/* Loader animation */
+.a {
+  animation: a 1s infinite;
+}
+
+@keyframes a {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+
+.r {
+  animation: r 1s infinite;
+}
+
+@keyframes r {
+  0% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+
+.n {
+  animation: n 1s infinite;
+}
+
+@keyframes n {
+  0% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* input */
+input, textarea {
+  height: 40px;
+  border: 1px solid gray;
+  width: 100%;
+  padding-left: 20px;
+}
+
+input:focus {
+  outline: none;
+  border: 2px solid rgb(79, 79, 79)
+}
+
+/* text area */
+textarea {
+  height: 100px;
+  padding-top: 10px;
+}
