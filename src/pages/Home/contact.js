@@ -1,13 +1,9 @@
 import React from "react";
-import SectionTitle from "../../components/SectionTitle";
 import { useSelector } from "react-redux";
 
 function Contact() {
-  const { portfolioData } = useSelector((state) => state.root);
-  const { contact } = portfolioData;
   return (
     <div className="h-[70vh] flex flex-col justify-center items-center gap-0">
-      {/* <SectionTitle title="Drop your thoughts, I’m all ears !" /> */}
       <h1 className="font-graffiti text-black text-5xl font-semibold m-0 pt-10">Your ideas, my inbox—let’s make it happen.</h1>
 
       <div className="flex">

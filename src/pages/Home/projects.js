@@ -1,6 +1,5 @@
 import React from "react";
 import SectionTitle from "../../components/SectionTitle";
-import { projects } from "../../resources/projects";
 import { useSelector } from "react-redux";
 
 function Projects() {
@@ -11,7 +10,7 @@ function Projects() {
   return (
     <div className="h-[100vh] my-10">
       <SectionTitle title="Projects" />
-      <div className="flex pt-0 pb-10 gap-5 sm:flex-col mt-0">
+      <div className="flex pt-0 pb-10 gap-5">
         <div className="order-2 flex flex-col w-1/3 gap-1">
           {projects.map((project, index) => (
             <div
@@ -61,42 +60,3 @@ function Projects() {
 }
 
 export default Projects;
-
-{
-  /* <div>
-<SectionTitle title='Projects'/>
-
-<div className="flex py-10 gap-20 sm:flex-col">
-    <div className="flex flex-col gap-10 border-l-2 border-white w-1/3 sm:flex-row sm:overflow-x-scroll sm:w-full">
-        {projects.map((project, index) => (
-            <div 
-                onClick={() => {
-                    setSelectedItemIndex(index);
-                }}
-                className="cursor-pointer"
-                >
-                <h1 className={`text-xl px-5
-                ${selectedItemIndex === index 
-                    ? 'text-tertiary border-tertiary border-l-4 -ml-[3px] bg-[#ffffff6c] py-3 sm:w-40' 
-                    : ' text-white'
-                }`}>
-                    {project.title}
-                </h1>
-            </div>
-        )) }
-    </div>
-    <div className="flex flex-col gap-5">
-        <h1 className="text-secondary text-xl">
-            {projects[selectedItemIndex].title}
-        </h1>
-        <p className="text-white">{projects[selectedItemIndex].description}</p>
-        <h1 className="text-secondary text-xl">
-            GitHub Repo:
-        </h1>
-        <h1 className="text-white text-xl">
-            {projects[selectedItemIndex].link}
-        </h1>
-    </div>
-</div>
-</div> */
-}

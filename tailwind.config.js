@@ -12,7 +12,7 @@ module.exports = {
       }
     },
     backgroundImage: {
-      'image': "url('../public/background.jpg')",
+      'image': "url('/public/background.jpg')",
     },
     screens: {
       'lg': {'max': '2023px'},
