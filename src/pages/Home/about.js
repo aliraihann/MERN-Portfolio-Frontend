@@ -10,7 +10,7 @@ function About() {
     <div id="about-section" className="h-screen">
       <div className="flex lg:w-full">
         <div className="w-1/2 flex flex-col">
-          <h1 className="font-graffiti-caption lg:text-9xl text-left pl-10 text-blue-700">
+          <h1 className="font-graffiti-caption lg:text-2xl text-left pl-10 text-blue-700">
             From <br />
             Back Office <br />
             to <br />
