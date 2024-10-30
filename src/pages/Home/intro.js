@@ -1,9 +1,6 @@
 import React from "react";
-import { useSelector } from "react-redux";
 
 function Intro() {
-  const { portfolioData } = useSelector((state) => state.root);
-  const { intro } = portfolioData;
 
   const handleButtonClick = () => {
     const aboutElement = document.getElementById("about-section");
