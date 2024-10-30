@@ -8,7 +8,7 @@ function Projects() {
   const { projects } = portfolioData;
 
   return (
-    <div className="h-[100vh] my-10">
+    <div className="h-screen my-10">
       <SectionTitle title="Projects" />
       <div className="flex pt-0 pb-10 gap-5">
         <div className="order-2 flex flex-col w-1/3 gap-1">

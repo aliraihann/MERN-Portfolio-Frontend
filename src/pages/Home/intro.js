@@ -10,7 +10,7 @@ function Intro() {
   };
 
   return (
-    <div className="lg:h-[100vh] flex flex-col justify-center items-center gap-10">
+    <div className="h-screen flex flex-col justify-center items-center gap-10">
       <div className="bg-white box-content h-[450px] w-[500px] rounded-2xl border-4 border-black p-2">
         <div className="bg-red-600 box-content h-full flex flex-col rounded-2xl">
           <h1 className="text-white text-9xl text-center font-bold m-0">HI!</h1>

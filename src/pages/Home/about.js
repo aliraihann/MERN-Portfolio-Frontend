@@ -7,7 +7,7 @@ function About() {
   const { description1, skills } = about;
 
   return (
-    <div id="about-section" className="h-[100vh]">
+    <div id="about-section" className="h-screen">
       <div className="flex w-full">
         <div className="w-1/2 flex flex-col">
           <h1 className="font-graffiti-caption text-9xl text-left pl-10 text-blue-700">
