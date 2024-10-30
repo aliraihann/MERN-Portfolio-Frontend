@@ -8,9 +8,9 @@ function About() {
 
   return (
     <div id="about-section" className="h-screen">
-      <div className="flex w-full">
+      <div className="flex lg:w-full">
         <div className="w-1/2 flex flex-col">
-          <h1 className="font-graffiti-caption text-9xl text-left pl-10 text-blue-700">
+          <h1 className="font-graffiti-caption lg:text-9xl text-left pl-10 text-blue-700">
             From <br />
             Back Office <br />
             to <br />
@@ -18,11 +18,11 @@ function About() {
           </h1>
         </div>
         <div className="flex flex-col w-1/2">
-          <p className="font-graffiti pt-10 text-3xl text-black">
+          <p className="font-graffiti pt-10 lg:text-3xl text-black">
             {description1 || "  "}
           </p>
           <div className="flex flex-col">
-            <h1 className="font-graffiti justify-end text-black text-3xl">
+            <h1 className="font-graffiti justify-end text-black lg:text-3xl">
               Here are a few technologies I've been working recently:
             </h1>
             <div className="flex flex-wrap justify-center gap-10 mb-11">
