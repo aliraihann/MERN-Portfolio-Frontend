@@ -15,6 +15,7 @@ module.exports = {
       'image': "url('/public/background.jpg')",
     },
     screens: {
+      ...require('tailwindcss/defaultTheme').screens,
       'lg': {'max': '2023px'},
       'sm': {'max': '1000px'},
     }
