@@ -7,7 +7,7 @@ function About() {
   const { description1, skills } = about;
 
   return (
-    <div id="about-section" className="h-screen">
+    <div id="about-section" className="h-screen overflow-hidden">
       <div className="flex lg:w-full">
         <div className="flex flex-col lg:w-1/2">
           <h1 className="font-graffiti-caption text-left text-blue-700 lg:text-9xl  lg:pl-10 ">
