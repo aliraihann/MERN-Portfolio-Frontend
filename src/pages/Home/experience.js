@@ -43,31 +43,31 @@ function Experiences() {
             {experiences[selectedItemIndex].description}
           </p>
           <div className="flex justify-end">
-            {selectedItemIndex === 0 ? (
+            {experiences[selectedItemIndex].company.includes("Ernst") ? (
               <img
                 src="/logoEy.png"
                 alt="Logo EY"
                 className="size-40"
               />
-            ) : selectedItemIndex === 1 ? (
+            ) : experiences[selectedItemIndex].company.includes("Shopee") ? (
               <img
                 src="/logoShopee.png"
                 alt="Logo Shopee"
                 className="size-40"
               />
-            ) : selectedItemIndex === 2 ? (
+            ) : experiences[selectedItemIndex].company.includes("Kayu") ? (
               <img
                 src="/logoFabelio.png"
                 alt="Logo Fabelio"
                 className="size-40"
               />
-            ) : selectedItemIndex === 3 ? (
+            ) : experiences[selectedItemIndex].company.includes("Sinar") ? (
               <img
                 src="/logoSinarMas.png"
                 alt="Logo Sinar Mas"
                 className="size-40"
               />
-            ) : selectedItemIndex === 4 ? (
+            ) : experiences[selectedItemIndex].company.includes("Stockroom") ? (
               <img
                 src="/logoStockroom.png"
                 alt="Logo Stockroom"
