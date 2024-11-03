@@ -8,10 +8,11 @@ function Projects() {
   const { projects } = portfolioData;
 
   return (
-    <div className="h-screen overflow-hidden my-10">
-      <SectionTitle title="Projects" />
+    <section className="min-h-screen overflow-hidden my-10">
       <div className="flex pt-0 pb-10 gap-5">
-        <div className="order-2 flex flex-col w-1/3 gap-1">
+        <div className="order-2 flex flex-col w-1/3 gap-1 justify-center">
+          <SectionTitle title="Projects" />
+
           {projects.map((project, index) => (
             <div
               onClick={() => {
@@ -36,26 +37,30 @@ function Projects() {
           <div className="flex flex-grow border-double border-8 border-yellow-400 rounded-full p-1">
             <div className="flex flex-grow border-double border-8 rounded-full">
               <div className="flex flex-grow border-double border-8 border-yellow-400 rounded-full p-1">
-                <div className="flex-grow border-solid border-8 border-red-600 p-2 rounded-full">
-                  <h1 className="font-graffiti-title text-black text-center text-5xl pt-16 mb-0">
+                <div className="flex-grow border-solid border-8 border-red-600 rounded-full p-20">
+                  <h1 className="font-graffiti-title text-black text-center text-5xl m-0 ">
                     {projects[selectedItemIndex].title}
                   </h1>
-                  <p className="text-black font-graffiti text-center text-3xl mb-0 px-5 py-5">
+                  <p className="text-black font-graffiti text-center text-3xl">
                     {projects[selectedItemIndex].description}
                   </p>
                   <h1 className="font-graffiti-title text-center text-black px-5 text-5xl mb-0 mt-5">
                     GitHub Repo:
                   </h1>
-                  <h1 className="text-black font-graffiti text-center text-3xl px-5 pb-16">
+                  <a
+                    href={projects[selectedItemIndex].link}
+                    target="_blank"
+                    className="text-black font-graffiti text-3xl text-center block hover:text-blue-500"
+                  >
                     {projects[selectedItemIndex].link}
-                  </h1>
+                  </a>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

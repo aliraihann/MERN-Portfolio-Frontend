@@ -18,8 +18,7 @@ function Admin() {
   }, []);
   return (
     <div>
-      <Header />
-      <div className="flex gap-10 items-center px-5 py-2 justify-between">
+      <div className="flex gap-10 items-center bg-image bg-contain px-5 py-2 justify-between">
         <div className="flex gap-10 items-center">
           <h1 className="text-3xl text-primary">Portfolio Admin</h1>
           <div className="w-60 h-[1px] bg-gray-500"></div>

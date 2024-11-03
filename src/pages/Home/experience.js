@@ -67,7 +67,7 @@ function Experiences() {
                 alt="Logo Sinar Mas"
                 className="size-40"
               />
-            ) : experiences[selectedItemIndex].company.includes("Stockroom") ? (
+            ) : experiences[selectedItemIndex].company.includes("Jakarta") ? (
               <img
                 src="/logoStockroom.png"
                 alt="Logo Stockroom"
