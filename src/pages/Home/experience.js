@@ -69,7 +69,7 @@ function Experiences() {
               />
             ) : experiences[selectedItemIndex].company.includes("Jakarta") ? (
               <img
-                src="/logoStockroom.png"
+                src="/LogoStockroom.png"
                 alt="Logo Stockroom"
                 className="size-40"
               />
