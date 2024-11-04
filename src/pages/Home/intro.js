@@ -9,7 +9,7 @@ function Intro() {
   };
 
   return (
-    <section className="h-3/4 lg:min-h-screen flex flex-col justify-center items-center p-20 lg:p-4">
+    <section className="h-3/4 w-full lg:min-h-screen flex flex-col justify-center items-center p-20 lg:p-4">
       {/* Main Card Container */}
       <div className="relative w-full max-w-lg mx-auto my-auto">
         <div className="bg-white rounded-2xl justify-self-center h-[250px] w-[250px] lg:h-[450px] lg:w-[450px] border-4 border-black p-1">
