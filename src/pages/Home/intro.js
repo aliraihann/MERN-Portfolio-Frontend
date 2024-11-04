@@ -9,7 +9,7 @@ function Intro() {
   };
 
   return (
-    <section className="h-lvh lg:min-h-screen flex flex-col justify-center items-center p-4">
+    <section className="h-3/4 lg:min-h-screen flex flex-col justify-center items-center p-20 lg:p-4">
       {/* Main Card Container */}
       <div className="relative w-full max-w-lg mx-auto my-auto">
         <div className="bg-white rounded-2xl justify-self-center h-[250px] w-[250px] lg:h-[450px] lg:w-[450px] border-4 border-black p-1">
@@ -29,7 +29,7 @@ function Intro() {
         </div>
       </div>
       <button
-        className="font-graffiti text-4xl text-black font-bold tracking-wide lg:self-end mb-20 lg:mt-16 lg:-rotate-6"
+        className="font-graffiti text-2xl lg:text-4xl text-black font-bold tracking-wide pt-5 lg:self-end lg:mt-16 lg:-rotate-6"
         onClick={handleButtonClick}
       >
         Let's get started!
