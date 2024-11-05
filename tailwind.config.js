@@ -15,6 +15,9 @@ module.exports = {
         'image': "url('/public/background.jpg')",
       },
       fontSize: {
+        '5.5xl': ['3rem', {
+          lineHeight: '1',
+        }],
         '8.5xl': ['7.3rem', {
           lineHeight: '1',
         }],
