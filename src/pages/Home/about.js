@@ -11,7 +11,7 @@ function About() {
       <div className="max-w-8xl mx-auto flex flex-col lg:flex-row gap-8">
         {/*left column */}
         <div className="w-full lg:w-1/2">
-          <h1 className="font-graffiti-caption lg:text-8.5xl text-blue-700 leading-tight">
+          <h1 className="font-graffiti-caption text-6xl  text-center lg:text-left lg:text-8.5xl text-blue-700 leading-tight">
           <span className="block">From</span>
             <span className="block">Back Office</span>
             <span className="block">to</span>
