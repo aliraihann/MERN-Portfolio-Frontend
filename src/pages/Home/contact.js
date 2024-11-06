@@ -2,7 +2,7 @@ import React from "react";
 
 function Contact() {
   return (
-    <div className="h-screen w-full lg:min-h-screen flex flex-col justify-center items-center gap-5 mb-0 overflow-hidden">
+    <div className="h-svh w-full lg:min-h-screen flex flex-col justify-center items-center gap-5 mb-0 overflow-hidden">
       <h1 className="font-graffiti text-black text-xl lg:text-5xl font-semibold m-0 lg:pt-10">
         Your ideas, my inbox—let’s make it happen.
       </h1>
