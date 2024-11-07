@@ -8,8 +8,8 @@ function Projects() {
   const { projects } = portfolioData;
 
   return (
-    <section className="min-h-screen overflow-hidden my-10">
-      <div className="flex-col lg:flex lg:flex-row lg:pt-0 lg:pb-10">
+    <section className="min-h-screen xl:min-h-fit overflow-hidden my-10 xl:m-0 xl:justify-center">
+      <div className="flex-col lg:flex lg:flex-row lg:pt-0 lg:pb-10 xl:pl-8 xl:justify-center">
         <div className="lg:order-2 flex flex-col lg:w-1/3 gap-1 pb-10 lg:pb-0 lg:px-3 justify-center">
           <SectionTitle title="Projects" />
 

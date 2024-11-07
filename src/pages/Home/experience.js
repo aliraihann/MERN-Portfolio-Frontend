@@ -8,7 +8,7 @@ function Experiences() {
   const { experiences } = portfolioData;
 
   return (
-    <section className="min-h-min overflow-hidden my-10 lg:pb-10">
+    <section className="min-h-min overflow-hidden my-10 lg:pb-10 xl:pl-7">
       <SectionTitle title="Experiences" />
       <div className="flex-col lg:flex lg:flex-row lg:p-5 lg:pt-0 lg:gap-5">
         <div className="flex flex-col lg:gap-5 lg:w-1/3 lg:justify-center">

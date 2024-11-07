@@ -15,15 +15,18 @@ module.exports = {
         'image': "url('/public/background.jpg')",
       },
       fontSize: {
+        '2.5xl': ['1.7rem', {
+          lineHeight: '2.25rem', 
+        }],
         '5.5xl': ['3rem', {
           lineHeight: '1',
         }],
         '8.5xl': ['7.3rem', {
           lineHeight: '1',
         }],
-        '2.5xl': ['1.7rem', {
-          lineHeight: '2.25rem', 
-        }]
+        '10xl': ['9rem', {
+          lineHeight: '1',
+        }],
       },
       maxWidth: {
         '8xl': '88rem',
@@ -32,7 +35,7 @@ module.exports = {
         'sm': '640px',    // Small devices (mobile)
         'md': '768px',    // Medium devices (tablets)
         'lg': '1024px',   // Large devices (laptops)
-        'xl': '1280px',   // Extra-large devices (desktops)
+        'xl': '1904px',   // Extra-large devices (desktops)
       }
     },
   },
