@@ -23,8 +23,8 @@ function Experiences() {
                 className={`font-graffiti-title text-xl md:text-2xl lg:text-3xl px-5 py-5 lg:m-0
                             ${
                               selectedItemIndex === index
-                                ? "text-white rounded-full text-right bg-blue-500"
-                                : " text-black"
+                                ? "text-white rounded-full text-center md:text-right lg:text-right xl:text-right bg-blue-500"
+                                : " text-black text-center md:text-left lg:text-left xl:text-left"
                             }`}
               >
                 {experience.period}
