@@ -9,8 +9,8 @@ function Projects() {
 
   return (
     <section className="min-h-screen overflow-hidden my-10">
-      <div className="flex-col lg:flex lg:pt-0 lg:pb-10">
-        <div className="lg:order-2 flex flex-col lg:w-1/3 gap-1 pb-10 justify-center">
+      <div className="flex-col lg:flex lg:flex-row lg:pt-0 lg:pb-10">
+        <div className="lg:order-2 flex flex-col lg:w-1/3 gap-1 pb-10 lg:pb-0 lg:px-3 justify-center">
           <SectionTitle title="Projects" />
 
           {projects.map((project, index) => (
@@ -21,7 +21,7 @@ function Projects() {
               className="cursor-pointer text-center"
             >
               <h1
-                className={`font-graffiti-title text-xl md:text-2xl lg:text-3xl px-5 py-5
+                className={`font-graffiti-title text-xl md:text-2xl lg:text-3xl px-5 py-5 lg:m-0
                             ${
                               selectedItemIndex === index
                                 ? "text-white bg-blue-500 rounded-full"

@@ -8,10 +8,10 @@ function Experiences() {
   const { experiences } = portfolioData;
 
   return (
-    <section className="h-screen min-h-min overflow-hidden my-10">
+    <section className="min-h-min overflow-hidden my-10 lg:pb-10">
       <SectionTitle title="Experiences" />
-      <div className="flex-col lg:flex lg:pt-0 lg:gap-5">
-        <div className="flex flex-col lg:gap-5 lg:w-1/3">
+      <div className="flex-col lg:flex lg:flex-row lg:p-5 lg:pt-0 lg:gap-5">
+        <div className="flex flex-col lg:gap-5 lg:w-1/3 lg:justify-center">
           {experiences.map((experience, index) => (
             <div
               onClick={() => {
@@ -20,7 +20,7 @@ function Experiences() {
               className="cursor-pointer"
             >
               <h1
-                className={`font-graffiti-title text-xl md:text-2xl lg:text-3xl px-5 py-5
+                className={`font-graffiti-title text-xl md:text-2xl lg:text-3xl px-5 py-5 lg:m-0
                             ${
                               selectedItemIndex === index
                                 ? "text-white rounded-full text-right bg-blue-500"

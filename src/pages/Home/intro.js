@@ -29,7 +29,7 @@ function Intro() {
         </div>
       </div>
       <button
-        className="font-graffiti text-xl  md:text-4xl lg:text-4xl text-black font-bold tracking-wide md:self-end lg:self-end lg:mt-16 md:-rotate-6 lg:-rotate-6"
+        className="font-graffiti text-xl  md:text-4xl lg:text-4xl text-black font-bold tracking-wide md:self-end lg:self-end lg:mb-5 md:-rotate-6 lg:-rotate-6"
         onClick={handleButtonClick}
       >
         Let's get started!
