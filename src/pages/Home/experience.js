@@ -35,13 +35,13 @@ function Experiences() {
           ))}
         </div>
         <div className="flex flex-col lg:w-1/2 border-double border-red-700 border-8 p-2">
-          <h1 className="font-graffiti-title text-black text-center text-xl md:text-4xl lg:text-4xl mb-0 pt-5  bg-yellow-400 ">
+          <h1 className="font-graffiti-title text-black text-center text-xl md:text-4xl lg:text-4xl  xl:text-6xl mb-0 pt-5 xl:p-4 bg-yellow-400 ">
             {experiences[selectedItemIndex].title}
           </h1>
           <h1 className="font-graffiti-paragraph tracking-tigh text-lg md:text-3xl lg:text-3xl text-center text-white pb-5 bg-yellow-400">
             {experiences[selectedItemIndex].company}
           </h1>
-          <p className="font-graffiti-paragraph tracking-tighter text-md md:text-lg lg:text-2xl justify-end text-center text-black">
+          <p className="font-graffiti-paragraph tracking-tighter text-md md:text-lg lg:text-2xl xl:text-2xl justify-end text-center text-black">
             {experiences[selectedItemIndex].description}
           </p>
           <div className="flex justify-end">
