@@ -13,7 +13,7 @@ function Home() {
   return (
     <div>
       {portfolioData && (
-        <div className="bg-image bg-contain bg-white px-3 lg:px-10 ">
+        <div className="bg-image bg-contain bg-center bg-white px-3 lg:px-10 w-full ">
           <Intro />
           <About />
           <Projects />
