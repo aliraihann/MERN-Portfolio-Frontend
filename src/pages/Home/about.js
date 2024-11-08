@@ -23,17 +23,17 @@ function About() {
         </div>
         {/*right column */}
         <div className="w-full lg:w-1/2 xl:w-full flex flex-col gap-0 xl:justify-self-end">
-          <p className="font-graffiti text-xl md:text-2xl lg:text-2.5xl xl:text-4xl text-black lg:pt-5">
+          <p className="font-graffiti-paragraph tracking-tight text-xl md:text-2xl lg:text-2xl xl:text-3xl text-black lg:py-3 lg:m-0">
             {description1 || "  "}
           </p>
           <div className="flex flex-col gap-2 xl:gap-0">
-            <h1 className="font-graffiti justify-end text-xl md:text-2xl lg:text-2xl xl:text-4xl text-black">
+            <h1 className="font-graffiti-paragraph justify-end text-xl md:text-2xl lg:text-1xl xl:text-4xl lg:m-0 text-black">
               Here are a few technologies I've been working recently:
             </h1>
-            <div className="flex flex-wrap justify-center gap-3 m-0 xl:m-0">
+            <div className="flex flex-wrap justify-center gap-3 m-0xl:m-0">
               {skills.map((skill, index) => (
                 <div key={index} >
-                  <h1 className="font-graffiti text-xl md:text-2xl lg:text-2xl xl:text-4xl lg:-rotate-2 mt-0 text-black bg-red-600/90">
+                  <h1 className="font-graffiti-paragraph text-xl md:text-2xl lg:text-xl xl:text-4xl lg:-rotate-2 mt-0 text-black bg-red-600/90">
                     {skill}
                   </h1>
                 </div>

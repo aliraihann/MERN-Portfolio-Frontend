@@ -9,7 +9,11 @@
 }
 @font-face {
   font-family: 'graffitiFontTitle'; /* For the experience title */
-  src: url('./fonts/Gemstone.ttf') format('truetype');
+  src: url('./fonts/KidsMagazine.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'graffitiFontTitle2'; /* for the caption */
+  src: url('./fonts/Bouncy-PERSONAL_USE_ONLY.otf') format('truetype');
 }
 @font-face {
   font-family: 'graffitiFontCaption'; /* for the caption */
@@ -17,7 +21,7 @@
 }
 @font-face {
   font-family: 'graffitiFontParagraph';
-  src: url('./fonts/Hey Comic.ttf') format('truetype');
+  src: url('./fonts/BaksoSapi.otf') format('truetype');
 }
 
 
@@ -29,6 +33,9 @@
 }
 .font-graffiti-title {
   font-family: 'graffitiFontTitle', sans-serif;
+}
+.font-graffiti-title2 {
+  font-family: 'graffitiFontTitle2', sans-serif;
 }
 .font-graffiti-paragraph {
   font-family: 'graffitiFontParagraph', sans-serif;

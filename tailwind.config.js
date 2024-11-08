@@ -32,6 +32,7 @@ module.exports = {
         '8xl': '88rem',
       }, 
       screens: {
+        'xs': '480px',    // Extra-small devices
         'sm': '640px',    // Small devices (mobile)
         'md': '768px',    // Medium devices (tablets)
         'lg': '1024px',   // Large devices (laptops)
